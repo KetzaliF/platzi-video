@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/af4acdd6c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles-login.css">
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="assets/logo-platzi-video-BW2.png" alt="Logo de Platzi video">
+    </header>
+
+    <section class="login">
+        <section class="login__container">
+            <h2 class="login__container-title">Inicia Sesión</h2>
+            <form class="login__container-form">
+                <input class="input" type="text" placeholder="Correo">
+                <input class="input" type="password" placeholder="Contraseña">
+                <button class="button" role="button">Iniciar Sesión</button>
+                <div class="login__container-remember-me">
+                    <label class="custom-radio-checkbox">
+                        <!-- Input oculto -->
+                        <input class="custom-radio-checkbox__input" type="checkbox" id="cbox1" value="checkbox" checked>
+                        <!-- Imagen en sustitución-->
+                        <span class="custom-radio-checkbox__show custom-radio-checkbox__show--radio"></span>
+                        <!-- Texto-->
+                        <span class="custom-radio-checkbox__rememberme">Récuerdame</span>
+                    </label>
+                    <a class="link" href="#">Olvidé mi contraseña</a>
+                </div>
+            </form>
+            <section class="login__container-socialmedia">
+                <button class="button button--modifier" role="button">
+                    <i class="fab fa-google socialmedia-icon"></i>
+                    <p>Inicia sesión con Google</p>
+                </button>
+                <button class="button button--modifier" role="button">
+                    <i class="fab fa-twitter socialmedia-icon"></i>
+                    <p>Inicia sesión con Twitter</p>
+                </button>
+            </section>
+            <p class="login__container-register">No tienes ninguna cuenta <a class="link link--modifier" href="register.html">Registrate</a></p>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <a href="#">Términos de uso</a>
+        <a href="#">Declaración de privacidad</a>
+        <a href="#">Centro de ayuda</a>
+    </footer>
+</body>
+</html>
